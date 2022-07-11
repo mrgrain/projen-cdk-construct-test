@@ -8,5 +8,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
   name: '@mrgrain/new-project-test',
   repositoryUrl: 'https://github.com/mrgrain/new-project-test.git',
   releaseTrigger: ReleaseTrigger.manual(),
+
 });
 project.synth();
